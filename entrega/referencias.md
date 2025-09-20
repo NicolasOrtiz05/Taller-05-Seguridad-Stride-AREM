@@ -3,16 +3,19 @@
 Este archivo contiene las fuentes consultadas para el desarrollo del taller, tanto para el componente técnico como para la investigación complementaria.
 
 ## 🔖 Taller
-_Taller X - [Nombre del Taller]_
+Taller-05-Seguridad-Stride-AREM
 
 ---
 
 ## 📚 Referencias utilizadas
 
-1. Apellido, Nombre. *Título del libro o artículo*. Editorial, Año. URL o DOI.  
-2. Organización. *Especificación técnica o estándar consultado*. URL.  
-3. Sitio web institucional. "Título del artículo o página". [Enlace](https://ejemplo.com). Fecha de consulta: DD/MM/AAAA.  
-4. Otro recurso académico o técnico citado.
+[1] Dynamics and Learning, “Estrategias para la ciberseguridad en el entorno educativo,” [En línea]. Disponible en: https://dynamicsandlearning.com/es/post/estrategias-ciberseguridad-entorno-educativo/. [Accedido: 20-sep-2025].
+
+[2] UNESCO, “Proteger la educación frente a todos los peligros y riesgos,” [En línea]. Disponible en: https://www.unesco.org/es/emergencies/education/protecting-hazards. [Accedido: 20-sep-2025].
+
+[3] Innoversia, “Seguridad y Privacidad en Plataformas Educativas: Fundamentos para un Entorno Digital Seguro,” [En línea]. Disponible en: https://innoversia.net/seguridad-privacidad-plataformas-educativas/. [Accedido: 20-sep-2025].
+
+[4] Infonucleo, “Buenas Prácticas Digitales: Fomentando una Cultura de Ciberseguridad desde las Escuelas,” [En línea]. Disponible en: https://www.infonucleo.com/buenas-practicas-digitales-fomentando-una-cultura-de-ciberseguridad-desde-las-escuelas/. [Accedido: 20-sep-2025].
 
 ---
 
