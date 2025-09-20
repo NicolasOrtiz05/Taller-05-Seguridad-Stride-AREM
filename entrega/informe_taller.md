@@ -1,18 +1,24 @@
 # 📄 Informe Técnico del Taller
 
 ## 🔖 Nombre del Taller
-_Taller X - [Nombre completo del taller]_
+_Taller 5 - Evaluación de Seguridad con STRIDE_
 
 ## 👥 Integrantes del equipo
-- Nombre 1 (correo o usuario GitHub)
-- Nombre 2
-- Nombre 3
+- Samuel Esptia Cruz - samuelescr@unisabana.edu.co
+- Edwin ALejandro Gutierrez Rodriguez - edwingutro@unisabana.edu.co
+- Nicolas Stiven Ortiz Cortes - nicolasorco@unisabana.edu.co
 
 ## 🧠 Descripción general del trabajo
-Describa brevemente el objetivo del taller y cómo se desarrolló la actividad.
+El objetivo del Taller 5 fue analizar riesgos de seguridad en sistemas de información aplicando el marco STRIDE, con el fin de identificar amenazas potenciales y definir medidas de mitigación que protejan la integridad, confidencialidad y disponibilidad de los datos.
+
+La actividad se desarrolló en dos fases:
+
+**Trabajo en clase:** el equipo seleccionó un flujo crítico del caso base EdukIT (plataforma de educación virtual) y aplicó el marco STRIDE. Para ello se construyó una tabla con las amenazas identificadas (como suplantación de identidad, alteración de datos, divulgación no autorizada o denegación de servicio), evaluando el impacto y proponiendo controles de mitigación. Esta parte permitió practicar el modelo en un entorno guiado.
+
+**Aplicación al cliente real:** después de la clase, el equipo trasladó la metodología al sistema del cliente, escogiendo el proceso de adquisiciones en curso. Se elaboró una tabla con amenazas, riesgos y medidas de seguridad específicas, además de un informe técnico que documenta los hallazgos. Finalmente, se investigaron buenas prácticas de ciberseguridad en el sector correspondiente para enriquecer el análisis y alinear las propuestas con estándares reconocidos.
 
 ## 🔧 Proceso de desarrollo
-Explique cómo realizaron el trabajo: qué decisiones tomaron, qué herramientas utilizaron, qué aspectos modelaron primero y cómo lo fueron ajustando.
+Para el desarrollo del taller se seleccionó el proceso de adquisiciones en curso de la Universidad de La Sabana, al considerarse un flujo crítico por el manejo de información sensible como proveedores, contratos y transacciones económicas. Inicialmente se analizaron los modelos realizados en otro tallers para identificar los actores y sistemas que intervienen, lo que permitió ubicar los puntos de interacción más vulnerables. A partir de este modelo se aplicó el marco STRIDE, evaluando cada categoría de amenaza sobre el flujo (suplantación de identidad en accesos, alteración de solicitudes o contratos, falta de trazabilidad en aprobaciones, divulgación de datos financieros, interrupción del servicio o escalamiento de privilegios indebidos). Para documentar los hallazgos se utilizó una tabla en Excel, donde se consignaron amenazas, impactos y controles propuestos como autenticación multifactor, encriptación de información, auditoría de transacciones y políticas de control de acceso. El modelo se fue ajustando conforme se identificaron nuevos riesgos, priorizando los de mayor impacto en la continuidad del proceso, y finalmente se complementó con la revisión de buenas prácticas de ciberseguridad aplicables al sector educativo y a la gestión administrativa universitaria.
 
 ## 🧩 Análisis del modelo propuesto
 Incluya un análisis sobre:
@@ -20,8 +26,7 @@ Incluya un análisis sobre:
 - Cómo representa las necesidades del cliente
 - Qué supuestos se tomaron
 
-## 📈 Diagrama final entregado
-> (Inserte aquí una imagen o enlace al modelo-final.drawio / .asta / PDF)
+## Tabla STRIDE
 
 ## 📋 Tabla de actores, entidades o componentes (si aplica)
 
