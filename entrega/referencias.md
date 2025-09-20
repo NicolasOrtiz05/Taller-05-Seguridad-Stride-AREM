@@ -17,14 +17,4 @@ Taller-05-Seguridad-Stride-AREM
 
 [4] Infonucleo, “Buenas Prácticas Digitales: Fomentando una Cultura de Ciberseguridad desde las Escuelas,” [En línea]. Disponible en: https://www.infonucleo.com/buenas-practicas-digitales-fomentando-una-cultura-de-ciberseguridad-desde-las-escuelas/. [Accedido: 20-sep-2025].
 
----
-
-## 📌 Recomendaciones
-
-- Usa formato APA o IEEE para citar.
-- No incluyas fuentes como Wikipedia si hay mejores alternativas.
-- Si usas inteligencia artificial para redactar o investigar, cítalo como "Fuente asistida por IA: ChatGPT, julio 2025".
-
----
-
 _Este archivo forma parte de la entrega académica del curso AREM - Universidad de La Sabana._

@@ -21,18 +21,12 @@ La actividad se desarrolló en dos fases:
 Para el desarrollo del taller se seleccionó el proceso de adquisiciones en curso de la Universidad de La Sabana, al considerarse un flujo crítico por el manejo de información sensible como proveedores, contratos y transacciones económicas. Inicialmente se analizaron los modelos realizados en otro tallers para identificar los actores y sistemas que intervienen, lo que permitió ubicar los puntos de interacción más vulnerables. A partir de este modelo se aplicó el marco STRIDE, evaluando cada categoría de amenaza sobre el flujo (suplantación de identidad en accesos, alteración de solicitudes o contratos, falta de trazabilidad en aprobaciones, divulgación de datos financieros, interrupción del servicio o escalamiento de privilegios indebidos). Para documentar los hallazgos se utilizó una tabla en Excel, donde se consignaron amenazas, impactos y controles propuestos como autenticación multifactor, encriptación de información, auditoría de transacciones y políticas de control de acceso. El modelo se fue ajustando conforme se identificaron nuevos riesgos, priorizando los de mayor impacto en la continuidad del proceso, y finalmente se complementó con la revisión de buenas prácticas de ciberseguridad aplicables al sector educativo y a la gestión administrativa universitaria.
 
 ## 🧩 Análisis del modelo propuesto
-Incluya un análisis sobre:
-- Cómo se estructura el modelo entregado
-- Cómo representa las necesidades del cliente
-- Qué supuestos se tomaron
+
+El modelo entregado se estructuró aplicando de manera sistemática las seis categorías del marco STRIDE (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service y Elevation of Privilege), lo que permitió identificar amenazas específicas sobre el proceso de adquisiciones en curso de la Universidad de La Sabana. Para cada categoría se definió una amenaza puntual, se valoró su nivel de impacto, se describieron las posibles consecuencias en términos de afectación a la integridad, disponibilidad y confidencialidad del proceso, y finalmente se plantearon controles de mitigación tanto tecnológicos como procedimentales. Esta forma de estructuración facilita una visión integral del riesgo, asegurando que se cubran todos los escenarios de ataque relevantes y que se mantenga la trazabilidad de los hallazgos. El análisis representa las necesidades del cliente porque se enfoca en un flujo altamente sensible para la institución: la gestión de adquisiciones, que involucra solicitudes, contratos, presupuestos y la interacción con proveedores. Así mismo, el modelo se adapta al contexto operativo real al considerar las plataformas que la universidad utiliza (como SharePoint y el portal de servicios), lo cual asegura que las medidas propuestas respondan a vulnerabilidades concretas y contribuyan directamente a los objetivos institucionales de garantizar transparencia, trazabilidad y continuidad en el proceso de compras. Para la construcción del modelo se tomaron supuestos clave: se consideró a SharePoint como la herramienta principal para la gestión documental y de aprobaciones; se asumió que los roles legítimos del flujo corresponden únicamente a empleados internos del área, mientras que accesos indebidos de estudiantes u otros usuarios constituirían un escalamiento de privilegios; también se partió de que existen prácticas básicas de respaldo y continuidad que requieren fortalecerse; y la clasificación del impacto se realizó en función de la criticidad institucional del proceso y no de métricas cuantitativas exactas. Estos supuestos permitieron mantener el análisis enfocado y realista, ajustado a la realidad de la universidad y a las necesidades de su gestión administrativa.
 
 ## Tabla STRIDE
 
-## 📋 Tabla de actores, entidades o componentes (si aplica)
-
-| Nombre del elemento | Tipo | Descripción | Responsable |
-|---------------------|------|-------------|-------------|
-| Ej: Paciente        | Actor | Usuario que agenda una cita médica | Cliente |
+![TablaStride - Cliente](tabla-stride-cliente.png)
 
 ## 🔍 Investigación complementaria
 ### Buenas Prácticas de Seguridad en el Sector Educativo
@@ -77,4 +71,4 @@ Estas prácticas se alinean directamente con el enfoque del modelo STRIDE, utili
 - [4] Infonucleo, “Buenas Prácticas Digitales: Fomentando una Cultura de Ciberseguridad desde las Escuelas,” [En línea]. Disponible en: https://www.infonucleo.com/buenas-practicas-digitales-fomentando-una-cultura-de-ciberseguridad-desde-las-escuelas/. [Accedido: 20-sep-2025].
 
 
-_Este documento hace parte de la entrega del taller X del curso AREM (Arquitectura Empresarial) - Universidad de La Sabana._
+_Este documento hace parte de la entrega del taller 5 del curso AREM (Arquitectura Empresarial) - Universidad de La Sabana._
