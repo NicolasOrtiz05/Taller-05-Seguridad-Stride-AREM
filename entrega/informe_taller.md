@@ -35,16 +35,53 @@ Incluya un análisis sobre:
 | Ej: Paciente        | Actor | Usuario que agenda una cita médica | Cliente |
 
 ## 🔍 Investigación complementaria
-### Tema investigado:
-(Ej: Buenas prácticas BPMN, comparación TOGAF vs C4, principios de seguridad STRIDE, etc.)
+### Buenas Prácticas de Seguridad en el Sector Educativo
+
+#### Introducción
+
+Las instituciones educativas han transitado hacia entornos digitales donde la colaboración, el almacenamiento en la nube y las plataformas de aprendizaje en línea son la norma. Este cambio amplifica la superficie de ataques ciberneticos y exige que se tomen medidas preventivas para evitar ser vulnerados. La UNESCO recomienda integrar las amenazas tecnológicas en el Marco Integral de Seguridad Escolar (CSSF), garantizando un entorno seguro para todos los actores educativos.
+
+
+#### Principales Amenazas y Retos
+
+- *Phishing:* correos o mensajes falsos que buscan robar credenciales de estudiantes, docentes y administrativos.  
+
+- *Malware:* software malicioso que compromete dispositivos y redes institucionales.  
+
+- *Ransomware:* cifrado de datos críticos de la institución a cambio de rescate, interrumpiendo la continuidad educativa.  
+
+- *Acceso no autorizado:* ausencia de controles de privilegios y contraseñas débiles que facilitan intrusiones.  
+
+- *Brechas de privacidad:* uso inadecuado o excesivo de datos personales sin políticas claras de retención y eliminación.  
+
+- *Vulnerabilidades en plataformas:* fallas en sistemas de gestión de aprendizaje (LMS) y aplicaciones educativas sin parches al día.  
+
+
+#### Buenas Prácticas Recomendadas
+
+Para fortalecer la seguridad en el sector educativo, es fundamental implantar contraseñas robustas y autenticación multifactor que obliguen a renovar las claves regularmente y protejan los accesos críticos; además, se debe automatizar el parcheo continuo de sistemas operativos, servidores LMS y aplicaciones de apoyo para corregir vulnerabilidades sin demora. También resulta imprescindible cifrar los datos en tránsito y en reposo mediante protocolos TLS y soluciones de cifrado en la nube, al tiempo que se aplica el principio de menor privilegio en la gestión de accesos, asignando y revisando permisos según el rol de cada usuario. Asimismo, conviene diseñar y poner a prueba con frecuencia un plan de copias de seguridad automatizadas y recuperación ante desastres, y complementar esta estrategia con formación y simulacros de ciberhigiene que incluyan talleres de detección de phishing, uso responsable de dispositivos y ejercicios de respuesta a incidentes. De igual modo, la segmentación de redes internas limita el alcance de posibles ataques, mientras que unas políticas claras de privacidad y manejo de datos garantizan procesos transparentes de recolección, almacenamiento y eliminación conforme a normativas vigentes. Finalmente, es clave realizar auditorías y revisiones periódicas para verificar el cumplimiento de todas estas medidas y ajustar los procedimientos según evolucione el panorama de amenazas.
+
+## Fuentes
+
+1. Estrategias para la ciberseguridad en el entorno educativo. Dynamics and Learning. https://dynamicsandlearning.com/es/post/estrategias-ciberseguridad-entorno-educativo/  
+2. Proteger la educación frente a todos los peligros y riesgos. UNESCO. https://www.unesco.org/es/emergencies/education/protecting-hazards  
+3. Seguridad y Privacidad en Plataformas Educativas: Fundamentos para un ... Innoversia. https://innoversia.net/seguridad-privacidad-plataformas-educativas/  
+4. Buenas Prácticas Digitales: Fomentando una Cultura de Ciberseguridad desde las Escuelas. Infonucleo. https://www.infonucleo.com/buenas-practicas-digitales-fomentando-una-cultura-de-ciberseguridad-desde-las-escuelas/
 
 ### Resumen:
-Describa en 2–3 párrafos lo investigado, citando fuentes cuando sea necesario. Incluya cómo se relaciona con el taller.
+La investigación sobre buenas prácticas de seguridad en el sector educativo revela una creciente necesidad de proteger los entornos digitales frente a amenazas como el phishing, el ransomware y el acceso no autorizado. Instituciones educativas manejan datos sensibles de estudiantes, docentes y personal administrativo, lo que las convierte en blancos atractivos para atacantes. Según Dynamics and Learning, es esencial implementar contraseñas seguras, autenticación multifactor, cifrado de datos y políticas claras de privacidad para mitigar estos riesgos. La UNESCO también destaca la importancia de integrar la ciberseguridad en el Marco Integral de Seguridad Escolar, abordando no solo amenazas físicas sino también digitales.
+
+Estas prácticas se alinean directamente con el enfoque del modelo STRIDE, utilizado en el taller para identificar amenazas en sistemas informáticos. STRIDE clasifica los riesgos en seis categorías: suplantación de identidad (Spoofing), manipulación de datos (Tampering), repudio (Repudiation), divulgación de información (Information Disclosure), denegación de servicio (Denial of Service) y elevación de privilegios (Elevation of Privilege). Por ejemplo, la autenticación multifactor combate el spoofing, mientras que el cifrado de datos protege contra la divulgación de información. La gestión de accesos y el principio de menor privilegio abordan la elevación de privilegios, y los planes de recuperación ante desastres mitigan los efectos de la denegación de servicio. Así, las buenas prácticas investigadas no solo refuerzan la seguridad operativa, sino que también permiten mapear amenazas concretas dentro del marco STRIDE, facilitando su análisis y prevención sistemática.
 
 ## 📚 Referencias
-- [1] Apellido, Nombre. *Título*. Año. URL o DOI.
-- [2] Fuente oficial BPMN: https://www.omg.org/spec/BPMN/
 
----
+- [1] Dynamics and Learning, “Estrategias para la ciberseguridad en el entorno educativo,” [En línea]. Disponible en: https://dynamicsandlearning.com/es/post/estrategias-ciberseguridad-entorno-educativo/. [Accedido: 20-sep-2025].
+
+- [2] UNESCO, “Proteger la educación frente a todos los peligros y riesgos,” [En línea]. Disponible en: https://www.unesco.org/es/emergencies/education/protecting-hazards. [Accedido: 20-sep-2025].
+
+- [3] Innoversia, “Seguridad y Privacidad en Plataformas Educativas: Fundamentos para un Entorno Digital Seguro,” [En línea]. Disponible en: https://innoversia.net/seguridad-privacidad-plataformas-educativas/. [Accedido: 20-sep-2025].
+
+- [4] Infonucleo, “Buenas Prácticas Digitales: Fomentando una Cultura de Ciberseguridad desde las Escuelas,” [En línea]. Disponible en: https://www.infonucleo.com/buenas-practicas-digitales-fomentando-una-cultura-de-ciberseguridad-desde-las-escuelas/. [Accedido: 20-sep-2025].
+
 
 _Este documento hace parte de la entrega del taller X del curso AREM (Arquitectura Empresarial) - Universidad de La Sabana._
